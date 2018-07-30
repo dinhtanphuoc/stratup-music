@@ -10,6 +10,7 @@ const RenderRoutes = ({ routes }) => {
         <Route
           key={i}
           path={route.path}
+          exact
           render={(props) => (
             <route.component
               {...props}

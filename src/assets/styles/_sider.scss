@@ -1,0 +1,39 @@
+.sider-container {
+  .sider-menu-container {
+    overflow: auto;
+    height: 86vh;
+  }
+  .ant-menu-item {
+    margin: 0;
+  }
+  .sider-logo {
+    height: 64px;
+    .sider-menu-logo {
+      height: 100%;
+      background-color: #4cb6cb;
+      .sider-menu-item-logo {
+        height: 100%;
+      }
+      .ant-menu-item-selected {
+        background-color: #4cb6cb;
+      }
+      .sider-name-logo {
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+      }
+      .ant-menu-item {
+        display: flex;
+        align-items: center;
+      }
+      .anticon-global {
+        font-size: 30px;
+        color: #ffffff;
+        margin-left: -5px;
+      }
+    }
+  }
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #6969695e;
+}

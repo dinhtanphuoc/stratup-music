@@ -15,15 +15,13 @@ class HeaderLayout extends React.PureComponent {
   }
 
   toggle() {
-    console.log(1);
-    this.props.changeStatusCollapse && changeStatusCollapse(!this.props.collapse);
+    this.props.changeStatusCollapse && this.props.changeStatusCollapse(!this.props.collapse);
   }
 
   render() {
     return (
-      <Header>
+      <Header className="header-container">
         <Icon
-          style={{background: 'white'}}
           className="trigger"
           type={this.props.collapse ? 'menu-unfold' : 'menu-fold'}
           onClick={this.toggle}

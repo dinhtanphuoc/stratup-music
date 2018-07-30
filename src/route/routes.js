@@ -1,12 +1,17 @@
 
 import {
-  Demo
+  HomePage,
+  ListMusicPage
 } from '../containers';
 
 const routes = [
   {
-    component: Demo,
+    component: HomePage,
     path: '/'
+  },
+  {
+    component: ListMusicPage,
+    path: '/tong-quan'
   }
 ];
 

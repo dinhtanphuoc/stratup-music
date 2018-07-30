@@ -1,5 +1,7 @@
-import Demo from './Demo';
+import HomePage from './HomePage';
+import ListMusicPage from './ListMusicPage';
 
 export {
-  Demo
+  HomePage,
+  ListMusicPage
 }
