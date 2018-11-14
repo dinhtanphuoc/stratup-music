@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 
 const { Footer } = Layout;
 
-class FooterLayout extends React.Component {
+class FooterLayout extends React.PureComponent {
   render() {
     return (
       <Footer>

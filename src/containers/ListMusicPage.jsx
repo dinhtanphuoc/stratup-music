@@ -1,18 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { MasterLayout } from '../components/layout';
 
-class ListMusicPage extends React.Component {
+class ListMusicPage extends React.PureComponent {
   render() {
     const { history, location, match } = this.props;
     return (
-      <MasterLayout
+      <div
         history={history}
         location={location}
         match={match}
       >
       bbbbbbbbbb
-      </MasterLayout>
+      </div>
     );
   }
 }

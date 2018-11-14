@@ -1,18 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { MasterLayout } from '../components/layout';
 
-class HomePage extends React.Component {
+class HomePage extends React.PureComponent {
   render() {
     const { history, location, match } = this.props;
     return (
-      <MasterLayout
+      <div
         history={history}
         location={location}
         match={match}
       >
       aaaaaaâa
-      </MasterLayout>
+      </div>
     );
   }
 }

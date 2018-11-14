@@ -38,7 +38,6 @@ class SiberLayout extends React.PureComponent {
     }
   }
   render() {
-    console.log(1111111);
     const { collapse, menu } = this.props;
     return (
       <Sider
